@@ -1,21 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+    margin:0;
+    padding: 0;
+}
 /* Logo Section */
 .logo{
     display: flex;
     justify-content: space-between;
-    margin:50px 150px;
+     margin-bottom: 48px;
+     margin-top:50px;
+     margin-left:100px;
+     margin-right:100px;
+
 }
 nav>ul>a{
     text-decoration: none;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 33px;
     letter-spacing: 0%;
     text-align: left;
+    padding:20px 20px 20px 20px;
 }
+/*
+nav>ul>a:hover{
+    background-color:rgb(66, 59, 50);
+    color:white;
+ */
+
 .btn-primary{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -29,22 +43,72 @@ nav>ul>a{
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
+    padding: 17px 24px 17px 24px;
+}
+.btn-primary:hover{
+    background-color: black;
+    color:white;
 }
 
 /* Banner section */
 .banner{
-position: absolute;
-width: 998px;
-height: 582px;
-left: 221px;
-right: 221px;
-top: 157px;
-bottom: 4506px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+width: 100%;
+height: 500px;
+top: 70px;
+bottom: 100px;
 align-items: center;
-padding: 0px;
+background-image: url(../assets/Hero-bg.png);
+text-align: center;
+}
+.banner-items{
+ text-align: center;
+ margin-top:26px;
+
 
 
 }
+.banner-img{
+margin-left:100px;
+margin: 0 auto;
+
+}
+.banner-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+.banner-description{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top:24px;
+}
+.btn-secondary{
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 21px 24px 21px 24px;
+margin-top:32px;
+cursor:pointer;
+
+}
+.btn-secondary:hover{
+    background-color: white;
+    color:black;
+}
+
+/* objective */
