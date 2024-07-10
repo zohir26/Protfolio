@@ -356,9 +356,12 @@ padding:50px;
         justify-content: center;
         align-items: center;
         margin-left:150px;
+        
     } 
     .target-title{
-      
+      text-align: center;
+      align-items: center;
+
     }
     .target-head{
     
@@ -371,6 +374,7 @@ padding:50px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 24px;
+    text-align: center;
     }
     .target-description{
     color: rgb(13, 19, 33);
@@ -381,6 +385,7 @@ padding:50px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 48px;
+  
     }
 
     .current-target-card{
@@ -436,4 +441,89 @@ padding:50px;
         letter-spacing: 0%;
         text-align: left;
         text-decoration-line: underline;
+    }
+    /* Next-target-section*/
+    .n-target{
+        width: 100%;
+        height: 113px;
+        margin: o auto;
+        text-align: center;
+    }
+    .next-target-head{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom:24px;
+    }
+    .next-target-description{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom:48px;
+    }
+    .n-t-p{
+        display: flex;
+        width: 1140px;
+        height: 219px;
+        padding: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        margin-left:200px;
+        margin-bottom: 24px;
+       
+    }
+    .next-target-poster-container{
+       
+    }
+
+    .next-target-poster{
+      
+    }
+
+    .next-target-poster-info{
+        margin-left: 24px;
+    }
+    .next-target-poster-head{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;  
+        margin-bottom: 10px;
+    }
+    .next-target-poster-description{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .next-target-poster-btn{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration:none;
+        background: none;
+        border:none;
+        text-decoration: underline;
+        cursor: pointer;
     }
