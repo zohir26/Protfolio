@@ -299,3 +299,61 @@ padding:50px;
     text-align: left;
     margin-left:50px;
     }
+    /* inspiration section */
+    #ins{
+   
+    position: absolute;
+    width: 1140px;
+    height: 775px;
+    left: 148px;
+    right: 152px;
+    top: 2300px;
+    bottom: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    }
+    .inspiration-head{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 37px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom:24px;
+        margin-left: 100px;
+    }
+    .inspiration-description{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 48px;
+        margin-left: 100px;
+    }
+    .inspiration-video{
+        padding:32px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
+        width: 1000px;
+        height: 500px;
+        margin-left: 100px;
+    }
+    /* current target*/
+    #c-target{
+        position: static;
+        width: 1140px;
+        height: 460px;
+        margin-top:2300px;
+        justify-content: center;
+        align-items: center;
+        margin-left:150px;
+    } 
