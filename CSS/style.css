@@ -52,58 +52,58 @@ nav>ul>a:hover{
 
 /* Banner section */
 .banner{
-width: 100%;
-height: 600px;
-top: 70px;
-bottom: 100px;
-align-items: center;
-background-image: url(../assets/Hero-bg.png);
-text-align: center;
+    width: 100%;
+    height: 600px;
+    top: 70px;
+    bottom: 100px;
+    align-items: center;
+    background-image: url(../assets/Hero-bg.png);
+    text-align: center;
 }
 .banner-items{
- text-align: center;
- margin-top:26px;
+    text-align: center;
+    margin-top:26px;
 
 
 
 }
 .banner-img{
-margin-left:100px;
-margin: 0 auto;
+    margin-left:100px;
+    margin: 0 auto;
 
 }
 .banner-title{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 48px;
-font-weight: 800;
-line-height: 68px;
-letter-spacing: 0%;
-text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .banner-description{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
-margin-top:24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top:24px;
 }
 .btn-secondary{
-border-radius: 8px;
-background: rgb(13, 19, 33);
-color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-padding: 21px 24px 21px 24px;
-margin-top:32px;
-cursor:pointer;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    margin-top:32px;
+    cursor:pointer;
 
 }
 .btn-secondary:hover{
@@ -113,151 +113,149 @@ cursor:pointer;
 
 /* objective */
 #obj{
-position: absolute;
-width: 1140px;
-height: 1393px;
-left: 100px;
-margin-right: 200px;
-top: 857px;
-bottom: 100px;
+    position: absolute;
+    width: 1140px;
+    height: 1393px;
+    left: 100px;
+    margin-right: 200px;
+    top: 857px;
+    bottom: 100px;
 
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-padding: 80px 97px 80px 97px;
-border-radius: 16px;
-background: rgba(13, 19, 33, 0.02);
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 
 
 }
 .objective-header{
     
-position: static;
-width: 852px;
-height: 37px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin-top:0px;
-margin:auto;
+    position: static;
+    width: 852px;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top:0px;
+    margin:auto;
 
 
 }
 
 .objective-head{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
-line-height: 37px;
-letter-spacing: 0%;
-text-align: center;
-margin-bottom: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
 
 }
 .objective-description{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .objective-poster{
-margin-top:105px;
-position: static;
-width: 946px;
-height: 300px;
-display: flex;
-flex-direction: column;
-margin: 32px 0px;
-border-radius: 16px;
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
-margin-top: 50px;  
-padding:50px;
+    margin-top:105px;
+    position: static;
+    width: 946px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+    margin-top: 50px;  
+    padding:50px;
 
 }
+/* poster section */
+
 .poster-description{
-margin-left:50px;
-}
+    margin-left:50px;
+    }
 .poster-img{
    display: flex;
    justify-content: right;
 }
 
-
-
 .poster-button{
-width: 150px;
-height: 48px;
-padding: 12px 20px 12px 20px;
-margin-left:50px;
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-margin-left:50px
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 15px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-margin-top:20px;
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    margin-left:50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left:50px
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top:20px;
 }
 .poster-button:hover{
     background-color:black;
     color:white;
 }
 .poster-description{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin-top:20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top:20px;
 
 }
 .poster-head{
-color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-margin-left:50px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left:50px;
 }
 .poster-img{
    align-items:flex-end;
    margin-top: -200px;
 }
-.poster-img2{
- 
-}
+
 .objective-poster2{
- display: flex;
- border-radius: 16px;
-background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-width: 946px;
-height: 300px;
-padding:50px;
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 300px;
+    padding:50px;
 }
 .card{
     margin-left:50px ;
 }
     
     
-    .poster-button2{
+.poster-button2{
     width: 150px;
     height: 48px;
     padding: 12px 20px 12px 20px;
@@ -275,11 +273,11 @@ padding:50px;
     text-align: center;
     margin-top:20px;
     }
-    .poster-button2:hover{
+.poster-button2:hover{
         background-color:black;
         color:white;
     }
-    .poster-description2{
+.poster-description2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -291,7 +289,7 @@ padding:50px;
     margin-left:50px
     
     }
-    .poster-head2{
+.poster-head2{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -301,8 +299,9 @@ padding:50px;
     text-align: left;
     margin-left:50px;
     }
+
     /* inspiration section */
-    #ins{
+#ins{
    
     position: absolute;
     width: 1140px;
@@ -318,7 +317,7 @@ padding:50px;
     padding: 0px;
     text-align: center;
     }
-    .inspiration-head{
+.inspiration-head{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 32px;
@@ -329,7 +328,7 @@ padding:50px;
         margin-bottom:24px;
         margin-left: 100px;
     }
-    .inspiration-description{
+.inspiration-description{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -340,7 +339,7 @@ padding:50px;
         margin-bottom: 48px;
         margin-left: 100px;
     }
-    .inspiration-video{
+.inspiration-video{
         padding:32px;
         box-sizing: border-box;
         border: 1px solid rgba(13, 19, 33, 0.2);
@@ -350,7 +349,7 @@ padding:50px;
         margin-left: 100px;
     }
     /* current target*/
-    #c-target{
+#c-target{
         position: static;
         width: 1140px;
         height: 460px;
@@ -360,12 +359,12 @@ padding:50px;
         margin-left:150px;
         
     } 
-    .target-title{
+.target-title{
       text-align: center;
       align-items: center;
 
     }
-    .target-head{
+.target-head{
     
   
     color: rgb(13, 19, 33);
@@ -378,7 +377,7 @@ padding:50px;
     margin-bottom: 24px;
     text-align: center;
     }
-    .target-description{
+.target-description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -390,31 +389,41 @@ padding:50px;
   
     }
 
-    .current-target-card{
+.current-target-card{
         display: flex;
         justify-content: space-between;
+       
+        
     }
-    .target-card1{
+.target-card1{
         width: 250px;
         height: 299px;
         border-radius: 16px;
         background-color: rgba(255, 76, 30, 0.05);
+        margin-left:20px;
+        justify-content: center;
+        padding: 40px;
         
     }
-    .target-card1{
+
+.target-card2{
         width: 250px;
         height: 299px;
         border-radius: 16px;   
-        background-color: rgba(0, 76, 232, 0.05);
+        background: rgba(0, 76, 232, 0.05);
+        padding: 40px;
 
     }
-    .target-card1{
+.target-card3{
         width: 250px;
         height: 299px;
-        border-radius: 16px;
-        background-color: rgba(255, 223, 0, 0.05);
- }
-    .target-card-head{
+        border-radius: 16px;   
+        background: rgba(255, 223, 0, 0.05);
+        padding: 40px;
+
+    }
+
+.target-card-head{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 24px;
@@ -424,7 +433,7 @@ padding:50px;
         text-align: left;
         margin-bottom: 10px;
     }
-    .target-card-description{
+.target-card-description{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -434,7 +443,7 @@ padding:50px;
         text-align: left;
         margin-bottom: 20px;
     }
-    .target-link{
+.target-link{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -444,14 +453,16 @@ padding:50px;
         text-align: left;
         text-decoration-line: underline;
     }
+
     /* Next-target-section*/
-    .n-target{
+.n-target{
         width: 100%;
         height: 113px;
         margin: o auto;
         text-align: center;
+        margin-top:150px;
     }
-    .next-target-head{
+.next-target-head{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 32px;
@@ -461,7 +472,7 @@ padding:50px;
         text-align: center;
         margin-bottom:24px;
     }
-    .next-target-description{
+.next-target-description{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -471,7 +482,7 @@ padding:50px;
         text-align: center;
         margin-bottom:48px;
     }
-    .n-t-p{
+.n-t-p{
         display: flex;
         width: 1140px;
         height: 219px;
@@ -484,18 +495,11 @@ padding:50px;
         margin-bottom: 24px;
        
     }
-    .next-target-poster-container{
-       
-    }
 
-    .next-target-poster{
-      
-    }
-
-    .next-target-poster-info{
+.next-target-poster-info{
         margin-left: 24px;
     }
-    .next-target-poster-head{
+.next-target-poster-head{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 24px;
@@ -505,7 +509,7 @@ padding:50px;
         text-align: left;  
         margin-bottom: 10px;
     }
-    .next-target-poster-description{
+.next-target-poster-description{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -515,7 +519,7 @@ padding:50px;
         text-align: left;
         margin-bottom: 20px;
     }
-    .next-target-poster-btn{
+.next-target-poster-btn{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -530,10 +534,10 @@ padding:50px;
         cursor: pointer;
     }
     /* feedback section */
-    #contact{
+#contact{
      width: 1140px;
      height: 314px;
-     margin-left:200px;
+     margin-left:150px;
      padding: 64px 48px 64px 48px;
      border-radius: 16px;
      background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
@@ -542,7 +546,7 @@ padding:50px;
      justify-content: center;
      text-align: center;
     }
-    .contact-form-head{
+.contact-form-head{
         color: rgb(255, 255, 255);
         font-family: Azeret Mono;
         font-size: 32px;
@@ -552,7 +556,7 @@ padding:50px;
         text-align: center;
         margin-bottom: 16px;
     }
-    .contact-form-description{
+.contact-form-description{
         color: rgb(255, 255, 255);
         font-family: Azeret Mono;
         font-size: 16px;
@@ -563,7 +567,7 @@ padding:50px;
         margin-bottom: 24px;
     }
 
-    .form-input{
+.form-input{
         width: 548px;
         height: 57px;
         padding: 19px 20px 19px 20px;
@@ -579,7 +583,7 @@ padding:50px;
         letter-spacing: 0%;
         text-align: center;
     }
-    .btn-submit{
+.btn-submit{
         width: 120px;
         height: 58px;
         padding: 17px 20px 17px 20px;
@@ -595,7 +599,12 @@ padding:50px;
         text-align: center;
         cursor: pointer;
     }
-    #copyright-icon{
+.btn-submit:hover{
+        background:rgb(13, 19, 33);
+        color:white;
+        border:white, solid, 2px;
+    }
+#copyright-icon{
         height: 100px;
         padding: 32px 150px 32px 150px;
         border-radius: 16px;
@@ -606,13 +615,13 @@ padding:50px;
         width:100%;
         
     }
-    #copyright-icon>.copyright{
+#copyright-icon>.copyright{
         display: flex;
         justify-content: space-between;
 
 
     }
-    .copyright-text{
+.copyright-text{
         color: rgb(13, 19, 33);
         font-family: Azeret Mono;
         font-size: 20px;
@@ -620,15 +629,16 @@ padding:50px;
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
-        margin-right: 200px;
+        margin-right: 350px;
      
     }
-    .icon{
+.icon{
       width: 30px;
       height: 30px;
       margin-left:20px;
       align-items:end ;
     }
-    img>.icon{
+img>.icon{
        justify-content: right;
+
     }
