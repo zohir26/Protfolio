@@ -527,3 +527,107 @@ padding:50px;
         text-decoration: underline;
         cursor: pointer;
     }
+    /* feedback section */
+    #contact{
+     width: 1140px;
+     height: 314px;
+     margin-left:200px;
+     padding: 64px 48px 64px 48px;
+     border-radius: 16px;
+     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+     background-image:url(../assets/handshake.jpg);
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+    }
+    .contact-form-head{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .contact-form-description{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .form-input{
+        width: 548px;
+        height: 57px;
+        padding: 19px 20px 19px 20px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        color: rgba(13, 19, 33, 0.4);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .btn-submit{
+        width: 120px;
+        height: 58px;
+        padding: 17px 20px 17px 20px;
+        border-radius: 8px;
+        background: rgb(255, 255, 255);
+        margin-left:10px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        cursor: pointer;
+    }
+    #copyright-icon{
+        height: 100px;
+        padding: 32px 150px 32px 150px;
+        border-radius: 16px;
+        background: rgba(13, 19, 33, 0.03);
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        margin-left:200px;
+    }
+    #copyright-icon>.copyright{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    .copyright-text{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-right: 200px;
+     
+    }
+    .icon{
+      width: 30px;
+      height: 30px;
+      margin-left:20px;
+      align-items:end ;
+    }
+    img>.icon{
+       justify-content: right;
+    }
+  
