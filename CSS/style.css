@@ -68,8 +68,8 @@ nav>ul>a:hover{
 
 }
 .banner-img{
-    margin-left:100px;
-    margin: 0 auto;
+   
+   
 
 }
 .banner-title{
@@ -612,7 +612,7 @@ nav>ul>a:hover{
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
-        width:100%;
+        width:81%;
         
     }
 #copyright-icon>.copyright{
